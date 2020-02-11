@@ -1,0 +1,142 @@
+.log_part{
+    background-size:100% 100%;
+    background-attachment:fixed;
+    background-color: black;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height:500px;
+    text-align:right;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-with:1px;
+}
+
+.logselect{
+	height: 40px;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
+a{
+	color: #7f8c8d;
+    cursor: pointer;
+    font-family: "Microsoft YaHei",微软雅黑,STHeiti,MingLiu,STHeiti,MingLiu;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.logselect li{
+	float: left;
+	font-family: "Microsoft YaHei UI";
+    font-size: 20px;
+    height: 100%;
+    width: 33%;
+    color: #7f8c8d;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logselect li:hover{
+	color: #f44ebc;
+}
+
+.log-pan{
+    vertical-align: text-bottom;
+    height: 60%;
+    width: 28%;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 100px;
+    float:right;
+    margin-right:150px;
+    border: 1px solid #f44ebc;
+}
+
+.log-input,.log-button{
+    vertical-align: bottom;
+    margin-top: 30px;
+}
+
+.fon{
+    font-family: "Microsoft YaHei UI";
+    font-size: 20px;
+}
+
+#login-button,#reg-button,#visit-button{
+    margin: 20px 20px 20px 20px ;
+    border-radius: 10px;
+    background-color:#f44ebc;
+    border-width: 0px;
+    height: 50px;
+    width: 180px;
+    color:white;
+}
+
+.wall{
+    margin-top: 20px;
+    float:left;
+    margin-left: 0px;
+    width: 100%;
+    min-height:600px;
+    zoom:1;
+    margin-right: 80px;
+    padding-left: 80px;
+}
+
+.m_wall{
+    width: 670px;
+    padding: 0 1px;
+    border-top: 1px solid #d4d4d5;
+    margin-left: 250px;
+    font-family: "Hiragino Sans GB";
+    font-size: 12px;
+    color: #444;
+}
+
+.m_body{
+    margin: 0 0 20px;
+    padding: 0;
+    background-color: white;
+}
+
+.inner_list{
+    padding: 20px 30px;
+    margin: 0;
+}
+
+.m_tag{
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    width: 64px;
+}
+
+.m_txt{
+    float: left;
+    width: 526px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.m_content{
+    cursor: pointer;
+    line-height: 22px;
+    word-wrap: break-word;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.btn{
+	font-family: "Hiragino Sans GB";
+    font-size: 16px;
+    cursor:hand;
+    float:left;
+    position:relative;
+}

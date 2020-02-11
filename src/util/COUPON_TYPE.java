@@ -1,0 +1,28 @@
+package util;
+
+public enum COUPON_TYPE {
+	DISCOUNT("打折券", 1), 
+	VOUCHER("代金券", 2);
+    
+    
+    private String name ;
+    private int index ;
+     
+    private COUPON_TYPE( String name , int index ){
+        this.name = name ;
+        this.index = index ;
+    }
+     
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getIndex() {
+        return index;
+    }
+    public void setIndex(int index) {
+        this.index = index;
+    }
+}
